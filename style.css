@@ -1,0 +1,326 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-image: url(4.jpg);
+    color: black;
+}
+
+
+.navbar{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+
+}
+.client{ 
+    border: 1px solid white;
+    color: white;
+     width: 22vh;
+     height: 13vh;
+     border-radius: 9px;
+     margin-left: 160vh;
+     padding: 20px;
+     position: absolute;
+     left: 80px;
+     top: 140px;
+}
+
+
+.image{
+    width: 80px;
+    position: absolute;
+    left: 176vh;
+    top: 35vh;
+    opacity: 0.2;
+    backface-visibility: visible;
+    
+}
+.map{
+    width: 25px;
+    left: 10px;
+    top: 2vh;
+    position: absolute;
+}
+.line{
+    position: absolute;
+    right: 150vh;
+    top: 24vh;
+}
+.main{
+    margin-top: 20vh;
+    margin-left: 80px;
+
+}
+.main h1{
+    font-size: 13vh;  
+    margin-bottom: 0;
+    color: white;
+}
+.main p{
+    color: white;
+
+}
+.main button{
+    background-color: white;
+    color: black;
+    border: solid white;
+    width: 30vh;
+    height: 30px;
+}
+.main a{
+    color: white;
+
+}
+.weather{
+    color: white;
+    border: 1px solid white ;
+    border-radius: 10px;
+    width: 60vh;
+    height: 25vh;
+    text-align: center;
+    top: 70vh;
+    left: 145vh;
+    position: absolute;
+    background-color: rgba(255,255,255,0.2);
+}
+.condition{
+    margin-top: 70px;
+}
+
+.middle1{
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+.hallow button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    border: 2px solid black;
+    margin-left: 100vh;
+    position: relative;
+    bottom: 1vh;
+    left: 67vh;
+    height: 30px;
+
+}
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#weAreDifferentSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.weAreDifferentSectionParagraph{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+
+.OnePartSection{
+    background-color: #1825009a;  
+    color: white;
+
+}
+.HorizontalPart{
+    display: flex;
+
+
+}
+.HorizontalPart p{
+    margin-top: 15vh;
+    margin-left: 65vh;
+    
+}
+.HorizontalPart h3{
+    margin-top: 0%;
+    padding: 100px;
+    font-size: 7vh;
+    
+}
+.SameParagraph{
+    background-color: #1825009a;
+
+}
+.SecondMiddle{
+    display: flex;
+    font-size: 8vh;
+    color: white;
+    justify-content: space-around;
+    padding: 32px;
+
+}
+.SecondMiddle p{
+    font-size: 15px;
+    margin-top: 60px;
+}
+
+#TheFirstRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 40vh;
+    color: white;
+    
+   
+}
+.TheSameRow{
+    border: 2px dotted;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-color: white;
+    text-align: left;
+    padding-left: 30px;
+    width: 60vh;
+    height: 21vh;
+    padding-bottom: 20px;
+}
+#TheBottomRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 150px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.TheSameBottomRow{
+    border: 2px dotted ;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-top: solid ;
+    text-align: left;
+    padding-left: 30px;
+    width: 72vh;
+    height: 15vh;
+    padding-top: 60px;
+
+}
+.leaflife{
+    padding-top: 120px;
+    
+}
+.leaflife img{
+    mix-blend-mode: multiply;
+}
+.MoreGarden{
+    background-color: white;
+    padding-bottom: 50px;
+
+}
+.TopArea{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+
+}
+.GardenImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.Garden{
+    margin: 10px;
+}
+.Garden img{
+    border-radius: 10px;
+    height: 70vh;
+}
+#MiddleTerms{
+    background-color: rgb(198, 237, 250);
+    text-align: center;
+    padding: 100px;
+    
+}
+#GardenWorks{
+    background-color: white;
+}
+
+.TopRow{
+    display: flex;
+    font-size: 8vh;
+    color: rgb(1, 7, 1);
+    justify-content: space-around;
+
+}
+.TopRow p{
+    font-size: 15px;
+    margin-top: 90px;
+}
+#RowImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;  
+}
+.Stubborn{
+    margin: 8px;
+}
+.Stubborn1{
+    opacity: 0.3;
+}
+.circle {
+    position: absolute;
+    top: 542.5vh;
+    left: 187.5vh;
+    width: 80px;
+    height: 80px;
+    line-height: 500px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  .flexItems{
+    margin: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+  }
+  .Transformation{
+    padding: 60px;
+    background-image: url(12.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+  }
+  .Transformation button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+  }
+  #RowInformation{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    justify-content: center;
+  }
+  .RowInformationBottom{
+    margin: 50px;
+  }
